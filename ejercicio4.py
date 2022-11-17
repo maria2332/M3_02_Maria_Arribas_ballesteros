@@ -18,5 +18,5 @@ def error_suma_string(*args):
 
 error_suma_string("2", 10)
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()

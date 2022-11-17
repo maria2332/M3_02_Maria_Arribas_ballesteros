@@ -17,7 +17,7 @@ def error_division_0(numerador,denominador):
 
 error_division_0(7,0)
 
-if __name__=="__main__":
-    main()
+if __name__ == "__main__":
+    main() 
 
 
