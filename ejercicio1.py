@@ -12,3 +12,20 @@ paises["alemania"]
 4) Localiza el error en el siguiente bloque de código. Crea una excepción para evitar que el programa se bloquee y además explica en un mensaje al usuario la causa y/o solución:
 resultado = "2" + 10
 """
+
+from ast import main 
+
+def error_division_0(numerador,denominador):
+    try: 
+        numero = numerador/denominador
+        return numero 
+    except ZeroDivisionError:
+        print("No se puede dividir por 0")
+    return
+
+error_division_0(7,0)
+
+if __name__=="__main__":
+    main()
+
+
