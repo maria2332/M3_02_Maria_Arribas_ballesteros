@@ -18,5 +18,5 @@ def error_clave_fuera_diccionario(diccionario, clave):
 
 error_clave_fuera_diccionario({ "españa":"español", "eeuu":"inglés", "italia":"italiano" } , "alemania")
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()

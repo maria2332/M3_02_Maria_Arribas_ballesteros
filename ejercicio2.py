@@ -18,5 +18,5 @@ def error_elemento_fuera_lista(lista, elemento_lista):
 
 error_elemento_fuera_lista([4, 7, 30, 23, 5], 10)
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
