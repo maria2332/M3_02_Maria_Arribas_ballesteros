@@ -16,7 +16,7 @@ def error_suma_string(*args):
             print ("No se puede sumar un string a un int/float")     
     return 
 
-error_suma_string("2" + 10)
+error_suma_string("2", 10)
 
 if __name__=="__main__":
     main()
